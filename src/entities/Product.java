@@ -51,6 +51,8 @@ public class Product {
     public void removeProducts(int quantity){
         this.quantity -= quantity;
     }
+
+    @Override
     public String toString(){
         return name
                 + " $ "

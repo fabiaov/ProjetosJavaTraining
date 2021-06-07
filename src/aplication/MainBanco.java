@@ -15,9 +15,10 @@ public class MainBanco {
 
         System.out.print("Enter account number: ");
         int accountNumber = sc.nextInt();
+        sc.nextLine();
         System.out.print("Enter account holder: ");
         String holder = sc.nextLine();
-        char op = 'y';
+        char op;
         do {
             System.out.print("Is there na initial deposit (y/n)? ");
             op = sc.next().charAt(0);
